@@ -1,0 +1,134 @@
+.replay-button svg {
+    width: 20px;
+    height: 20px;
+    transform: translate(0px, -3px);
+}
+
+.android .replay-button svg {
+    width: 10px;
+    height: 10px;
+    transform: translate(-10px, 5px);
+}
+
+.replay-button svg circle {
+    opacity: 0;
+}
+
+.replay-button svg path {
+    stroke: white; 
+    stroke-width: 10px;
+    stroke-linejoin: round;
+    fill: white;
+}
+
+.android .replay-button svg path {
+    stroke: white; 
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    fill: white;
+}
+
+.replay-button svg path:hover {
+    stroke: #FBA834; 
+    stroke-width: 10px;
+    stroke-linejoin: round;
+    fill: #FBA834;
+}
+
+.android .replay-button svg path:hover {
+    stroke: #FBA834; 
+    stroke-width: 3px;
+    stroke-linejoin: round;
+    fill: #FBA834;
+}
+
+.card {
+    font-family: Noto Sans TC, Roboto;
+    font-size: 18px;
+    text-align: left;
+    color: black;
+    background: url("image.jpg");
+}
+
+
+.frontbg {
+    font-family: Noto Sans TC, Roboto;
+    background-color: rgba(10, 80, 138, 0.95);
+    border-radius: 25px 25px 0px 0px; 
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+    color: #fff;
+    position: relative;
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.3);
+}
+
+
+.def {
+    font-family: Noto Sans TC, Roboto;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: -5px;
+    color: #0a508a;
+}
+
+
+.note {
+    margin-bottom: -15px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+
+.sentence {
+    line-height:1.3;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.tag {
+    width: fit-content;
+    line-height: 0.8rem;
+
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: -4px;
+    
+    font-size: 13px;
+    font-weight: bold;
+    
+    color: black;
+    background-color: #FBA834;
+}
+
+.backbg {
+    position: relative;
+
+    background: rgba(249, 249, 249, 1);
+
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    border-radius: 0px 0px 25px 25px; 
+    box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+}
+
+.word {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+   
